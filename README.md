@@ -1,6 +1,16 @@
-![The Well App](thumbnail.png)
+<div align='center'>
+<a href="https://aimeos.org/">
+    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="center" height="60" />
+</a>
+</div>
+<br />
 
 <div align='center'>
+
+[Ameos](https://aimeos.org/TYPO3) is THE professional, full-featured and
+high performance e-commerce extension for TYPO3!  You can install it in your
+existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
+and customize anything to your needs.
   
 <a href='https://github.com/chroline/well_app/releases'>
   
@@ -44,10 +54,6 @@
   
 <br />
   
-<br />
-  
-<a href="https://www.producthunt.com/posts/well?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-well" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=322651&theme=light" alt="Well - Improve your productivity and happiness in just 21 days. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-  
 </div>
 
 ---
@@ -65,10 +71,9 @@
 <div align="center">
 
 **[PROJECT PHILOSOPHY](https://github.com/chroline/well_app#-project-philosophy) • 
-[WIKI](https://github.com/chroline/well_app#-wiki) • 
 [TECH STACK](https://github.com/chroline/well_app#-tech-stack) • 
-[CONTRIBUTING](https://github.com/chroline/well_app#%EF%B8%8F-contributing) • 
-[SPREAD THE WORD](https://github.com/chroline/well_app#-spread-the-word) • 
+[SITE SETUP](https://github.com/chroline/well_app#-site-setup) • 
+[WHAT'S NEXT?](https://github.com/chroline/well_app#-spread-the-word) • 
 [LICENSE](https://github.com/chroline/well_app#%EF%B8%8F-license)**
 
 </div>
@@ -83,10 +88,6 @@
 
 **Read more about the Well app on [the project homepage](https://projects.colegaw.in/well-app?utm_source=GitHub&utm_medium=readme&utm_campaign=well_app_readme).**
 
-# 📒 Wiki
-
-This project repository has [a great wiki](https://github.com/chroline/well_app/wiki) (currently WIP) that you should consider reading! It goes into detail about the project from a more technical aspect. If you are interested in learning more about the app itself, go ahead and check it out!
-
 # 👨‍💻 Tech stack
 
 Here's a brief high-level overview of the tech stack the Well app uses:
@@ -99,13 +100,52 @@ Here's a brief high-level overview of the tech stack the Well app uses:
 
 For more information on the technologies that power the Well app, check out the [Tech Stack](https://github.com/chroline/well_app/wiki/Tech-Stack) page on our wiki.
 
-# ✍️ Contributing
 
-Interested in contributing to the Well app project? Thanks so much for your interest! We are always looking for improvements to the project and contributions from open-source developers are greatly appreciated.
+# 💻 Site setup
 
-If you have a contribution in mind, please check out our [Contribution Guide](https://github.com/chroline/well_app/wiki/Contribution-Guide) for information on how to do so. Also, make sure you read our [Code of Conduct](https://github.com/chroline/well_app/wiki/Code-of-Conduct) to foster an encouraging sense of community.
+TYPO3 10+ requires a site configuration which you have to add in "Site Management" > "Sites" available in the left navigation.
 
-# 🌟 Spread the word!
+## Page setup
+
+The page setup for an Aimeos web shop is easy if you import the example page tree for TYPO3 10/11:
+
+* [21.10+ page tree](https://aimeos.org/fileadmin/download/Aimeos-pages_21.10.t3d) only
+
+**Note:** The Aimeos layout expects [Bootstrap](https://getbootstrap.com) providing the grid layout!
+
+### Go to the import view
+
+* In Web::Page, root page (the one with the globe)
+* Right click on the globe
+* Move the cursor to "Branch actions"
+* In the sub-menu, click on "Import from .t3d"
+
+![Go to the import view](https://aimeos.org/docs/images/Aimeos-typo3-pages-menu.png)
+
+### Upload the page tree file
+
+* In the page import dialog
+* Select the "Upload" tab (2nd one)
+* Click on the "Select" dialog
+* Choose the file you've downloaded
+* Press the "Upload files" button
+
+![Upload the page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-upload.png)
+
+### Import the page tree
+
+* In Import / Export view
+* Select the uploaded file from the drop-down menu
+* Click on the "Preview" button
+* The pages that will be imported are shown below
+* Click on the "Import" button that has appeared
+* Confirm to import the pages
+
+![Import the uploaded page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-import.png)
+
+Now you have a new page "Shop" in your page tree including all required sub-pages.
+
+# 🌟 What's next?
 
 If you want to say thank you and/or support active development of the Well app:
 
@@ -118,15 +158,7 @@ Thanks so much for your interest in growing the reach of the Well app!
 
 _**PS:** consider sponsoring me ([Cole Gawin](https://colegaw.in)) to continue the development of this project on [BuyMeACoffee](https://buymeacoffee.com/colegawin) :)_
 
-# ⚠️ License
-
-The Well app is free and open-source software licensed under the GNU General Public License v3.0. All designs were created by [Cole Gawin](https://github.com/chroline) and distributed under Creative Commons license (CC BY-SA 4.0 International).
-
-<br />
-
 ---
-
-<br />
 
 # 💛
 
