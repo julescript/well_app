@@ -1,103 +1,44 @@
-<img src="./readme/title1.svg" alt="Title" title="Title" />
-test 1 2 3
-![Title](./readme/title1.svg)
-test 1 2 3
-<img src="./readme/title2.svg" alt="Title" title="Title" />
-test 1 2 3
-![Title](./readme/title2.svg)
-test 1 2 3
+<img src="./readme/title1.svg"/>
 
-<div align='center'>
-<a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="center" height="60" />
-</a>
-</div>
-<br />
+> Hello world! This is the project’s summary that describes the project plain and simple, limited to the space available.  
 
-<div align='center'>
+### Table of content
 
-[Ameos](https://aimeos.org/TYPO3) is THE professional, full-featured and
-high performance e-commerce extension for TYPO3!  You can install it in your
-existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
-and customize anything to your needs.
-  
-<a href='https://github.com/chroline/well_app/releases'>
-  
-<img src='https://img.shields.io/github/v/release/chroline/well_app?color=%23FDD835&label=version&style=for-the-badge'>
-  
-</a>
-  
-<a href='https://github.com/chroline/well_app/blob/main/LICENSE'>
-  
-<img src='https://img.shields.io/github/license/chroline/well_app?style=for-the-badge'>
-  
-</a>
-  
-</div>
+**[PROJECT PHILOSOPHY](https://github.com/julescript/well_app#-project-philosophy) • [WIREFRAMES](https://github.com/julescript/well_app#-wireframes) • [TECH STACK](https://github.com/julescript/well_app#-tech-stack) • [IMPLEMENTATION](https://github.com/julescript/well_app#-impplementation) • [HOW TO RUN?](https://github.com/julescript/well_app#-how-to-run)**
 
-<br />
+<br><br>
 
----
 
-<div align='center'>
-  
-### Quick Links
-  
-<a href='https://projects.colegaw.in/well-app?utm_source=GitHub&utm_medium=readme&utm_campaign=well_app_readme'>
-  
-<img src='https://img.shields.io/badge/HOMEPAGE-gray?style=for-the-badge'>
-  
-</a>
-  
-<a href='https://projects.colegaw.in/well-app/research?utm_source=GitHub&utm_medium=readme&utm_campaign=well_app_readme'>
-  
-<img src='https://img.shields.io/badge/RESEARCH-blue?style=for-the-badge'>
-  
-</a>
-  
-<a href='https://projects.colegaw.in/well-app/case-study?utm_source=GitHub&utm_medium=readme&utm_campaign=well_app_readme'>
-  
-<img src='https://img.shields.io/badge/CASE STUDY-green?style=for-the-badge'>
-  
-</a>
-  
-<br />
-  
-</div>
-
----
-
-### The Well app is available for download! 🥳 🚀
-
-- iOS/macOS: Search for "well: reboot your mindset" on the [iOS app store](https://apps.apple.com/us/app/well-reboot-your-mindset/id1573357406).
-- Web: Visit [https://well-app.netlify.app](https://well-app.netlify.app). Install as a PWA for native-like functionality!
-- Android: coming soon 👀
-
----
-
-<br />
-
-<div align="center">
-
-**[PROJECT PHILOSOPHY](https://github.com/chroline/well_app#-project-philosophy) • 
-[TECH STACK](https://github.com/chroline/well_app#-tech-stack) • 
-[SITE SETUP](https://github.com/chroline/well_app#-site-setup) • 
-[WHAT'S NEXT?](https://github.com/chroline/well_app#-spread-the-word) • 
-[LICENSE](https://github.com/chroline/well_app#%EF%B8%8F-license)**
-
-</div>
-
-<br />
-
-# 🧐 Project philosophy
+<img src="./readme/title2.svg"/>
 
 > The Well app is a mental health and mindfulness app built on top of the science of positive psychology. The Well app is more than just another meditation or journaling app; it encourages you to enhance and reflect on your day with structured, guided activities.
 > 
 > There are 5 daily tasks that the Well app asks you to complete each day: record 3 gratitudes, write a journal entry, perform 3 acts of kindness, exercise for 20 minutes, and meditate for 15 minutes.
 
-**Read more about the Well app on [the project homepage](https://projects.colegaw.in/well-app?utm_source=GitHub&utm_medium=readme&utm_campaign=well_app_readme).**
+### User Stories
+- As a user, I want to browsse ablums, so that I can find quick links
+- As a user, I want to browsse ablums, so that I can find quick links
+- As a user, I want to browsse ablums, so that I can find quick links
 
-# 👨‍💻 Tech stack
+<br><br>
+
+<img src="./readme/title3.svg"/>
+
+> This design was planned before on paper, then moved to Figma app for the fine details.
+Note that i didn't use any styling library or theme, all from scratch and using pure css modules
+
+| Landing  | Home/Search  |
+| -----------------| -----|
+| ![Landing](https://github.com/julescript/spotifyndr/blob/master/demo/Landing_Page.jpg) | ![Home/Search](https://github.com/julescript/spotifyndr/blob/master/demo/Search_Page.jpg) |
+
+| Artists results  | Artist's Albums  |
+| -----------------| -----|
+| ![Artists results](https://github.com/julescript/spotifyndr/blob/master/demo/Artists_Page.jpg) | ![Artist's Albums](https://github.com/julescript/spotifyndr/blob/master/demo/Albums_Page.jpg) |
+
+
+<br><br>
+
+<img src="./readme/title4.svg"/>
 
 Here's a brief high-level overview of the tech stack the Well app uses:
 
@@ -109,66 +50,8 @@ Here's a brief high-level overview of the tech stack the Well app uses:
 
 For more information on the technologies that power the Well app, check out the [Tech Stack](https://github.com/chroline/well_app/wiki/Tech-Stack) page on our wiki.
 
+<br><br>
+<img src="./readme/title5.svg"/>
+<br><br>
+<img src="./readme/title6.svg"/>
 
-# 💻 Site setup
-
-TYPO3 10+ requires a site configuration which you have to add in "Site Management" > "Sites" available in the left navigation.
-
-## Page setup
-
-The page setup for an Aimeos web shop is easy if you import the example page tree for TYPO3 10/11:
-
-* [21.10+ page tree](https://aimeos.org/fileadmin/download/Aimeos-pages_21.10.t3d) only
-
-**Note:** The Aimeos layout expects [Bootstrap](https://getbootstrap.com) providing the grid layout!
-
-### Go to the import view
-
-* In Web::Page, root page (the one with the globe)
-* Right click on the globe
-* Move the cursor to "Branch actions"
-* In the sub-menu, click on "Import from .t3d"
-
-![Go to the import view](https://aimeos.org/docs/images/Aimeos-typo3-pages-menu.png)
-
-### Upload the page tree file
-
-* In the page import dialog
-* Select the "Upload" tab (2nd one)
-* Click on the "Select" dialog
-* Choose the file you've downloaded
-* Press the "Upload files" button
-
-![Upload the page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-upload.png)
-
-### Import the page tree
-
-* In Import / Export view
-* Select the uploaded file from the drop-down menu
-* Click on the "Preview" button
-* The pages that will be imported are shown below
-* Click on the "Import" button that has appeared
-* Confirm to import the pages
-
-![Import the uploaded page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-import.png)
-
-Now you have a new page "Shop" in your page tree including all required sub-pages.
-
-# 🌟 What's next?
-
-If you want to say thank you and/or support active development of the Well app:
-
-- Add a GitHub Star to the project!
-- Tweet about the project on your Twitter!
-  - Tag [@colegawin_](https://twitter.com/colegawin_) and/or `#thewellapp`
-- Leave us a review [on the iOS App Store](https://apps.apple.com/us/app/well-reboot-your-mindset/id1573357406)!
-
-Thanks so much for your interest in growing the reach of the Well app!
-
-_**PS:** consider sponsoring me ([Cole Gawin](https://colegaw.in)) to continue the development of this project on [BuyMeACoffee](https://buymeacoffee.com/colegawin) :)_
-
----
-
-# 💛
-
-Reminder that *you are great, you are enough, and your presence is valued.* If you are struggling with your mental health, please reach out to someone you love and consult a professional. [There are many resources for you to get help in a time of need.](https://www.nimh.nih.gov/health/find-help)
